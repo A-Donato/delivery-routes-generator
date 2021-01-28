@@ -1,5 +1,6 @@
 import './App.css';
 import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import SeacrhPage from './pages/search-page';
 
 function App() {
   return (
@@ -15,16 +16,12 @@ function App() {
             <Users />
           </Route>
           <Route path="/">
-            <Home />
+            <SeacrhPage />
           </Route>
         </Switch>
       </div>
     </Router>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
 }
 
 function About() {
