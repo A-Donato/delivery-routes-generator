@@ -5,7 +5,7 @@ import SeacrhPage from './pages/search-page';
 function App() {
   return (
     <Router>
-      <div>
+      <div className='h-full w-full' >
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
